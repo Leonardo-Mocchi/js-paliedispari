@@ -12,7 +12,6 @@ if (userInput === palindrome) {
     alert("WOMP WOMP! La parola inserita NON è palindroma")
 }
 
-console.log(userInput);
-console.log(palindromeCheck);
-console.log(palindrome);
+console.log("La tua parola è: " + userInput);
+console.log("La tua parola ribaltata è: " + palindrome);
 

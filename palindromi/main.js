@@ -1,6 +1,13 @@
+/* function palindromeCheck(word) {
+    return word.split("").reverse().join("")
+} */
 
 function palindromeCheck(word) {
-    return word.split("").reverse().join("")    //.split() .join(" ")
+    let reversedWord = ""
+    for (let i = 0; i < word.length; i++) {
+        reversedWord += word[i]
+    }
+    return reversedWord
 }
 
 let userInput = prompt("inserisci una parola per vedere se è palindroma!", "Anna").toUpperCase();
